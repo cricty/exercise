@@ -51,5 +51,5 @@ Git
     
   + 只显示摘要
     ~~~
-    git diff -stat
+    git diff --stat
     ~~~
