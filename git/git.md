@@ -4,19 +4,19 @@ Git
 
 ----------------
 
-##### 1.创建版本库  ```git init```
+##### 1. 创建版本库  ```git init```
 
-##### 2.添加跟踪文件  ```git add <file>```
+##### 2. 添加跟踪文件  ```git add <file>```
   ~~~
   git add *.php   // 添加当前目录下的所有 PHP 文件
   ~~~
   
-##### 3.提交更改 ```git commit -m 'commit message'```
+##### 3. 提交更改 ```git commit -m 'commit message'```
   ~~~
   git commit -m '修改用户组权限'
   ~~~
   
-##### 4.克隆 ```git clone <repo> <directory>```  
+##### 4. 克隆 ```git clone <repo> <directory>```  
   ~~~
   git clone git@github.com:laravel/laravel.git
   // 也可以重命名项目文件夹名称
@@ -29,8 +29,8 @@ Git
   git clone https://github.com/laravel/laravel.git    // https
   ~~~
   
-##### 5.查看文件状态 ```git status (-s)```
-  > -s 表示获取简短的信息，不加该参数会输出详细内容
+##### 5. 查看文件状态 ```git status (-s)```
+   > -s 表示获取简短的信息，不加该参数会输出详细内容
   
 ##### 6. 查看改动 ```git diff```
 
